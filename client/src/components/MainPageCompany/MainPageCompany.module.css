@@ -1,0 +1,39 @@
+.workerPanel{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: center
+}
+
+.changeForm {
+    background-color: #08d;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 16px;
+    height: 40px;
+    margin: 16px;
+    outline: 0;
+    text-align: center;
+    width: 120px;
+  }
+  
+  .changeForm:active {
+    background-color: #06b;
+  }
+
+  .btn-wrap {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+  }
+
+  .mainPageCompany{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }

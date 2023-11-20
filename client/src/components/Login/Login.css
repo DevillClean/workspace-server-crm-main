@@ -1,0 +1,21 @@
+.loginFormDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.loginForm{
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff21;
+    border-radius: 5px;
+}
+.form-input1   {
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }

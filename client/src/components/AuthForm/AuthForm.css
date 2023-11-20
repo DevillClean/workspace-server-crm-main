@@ -1,0 +1,81 @@
+
+  .formDivAuth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .authform {
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff21;
+    border-radius: 5px;
+    }
+
+    .form-input   {
+      display: flex;
+      width: 75%;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    .form-input input {
+      width: 90%;
+    }
+    .buttonSubmit {
+    	background: none;
+	    border: 2px solid #00D4C6;
+      width: 30%;
+    	text-decoration: none;
+	    color: #00D4C6;
+	    font-size: 16px;
+	    text-transform: uppercase;
+	    padding: 10px 25px;
+	    border-radius: 5px;
+	    font-weight: bold;
+	    transition: .4s;
+      text-align: center;
+      margin-bottom: 15px;
+  }
+  .buttonSubmit:hover {
+      background-color: #00D4C6;
+      color:#ffffff;
+      transition: .2s ease-in-out;
+  }
+  .form-control {
+    border: 1px solid #B97979;
+    border-radius: 3px;
+    background: rgb(234, 234, 234) !important;
+    height: 24px;
+    width: 120px;
+    text-align: center;
+  }
+  .form-label {
+    margin: 5px;
+    letter-spacing: 3px;
+    color: #ffffff;
+  }
+  .inf{
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+  }
+    .loginPassword{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+      border-radius: 5px;
+      width: 100%;
+    }
+
+
+    .tel {
+      input:invalid:not(:placeholder-shown) {border-color: red;}
+input:valid:not(:placeholder-shown) {border-color: green;}
+    }
